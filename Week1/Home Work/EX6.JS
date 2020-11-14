@@ -1,8 +1,8 @@
 let item =[];
-// // this is an empety array []
-// console.log(item this is an empety array [] );
+console.log("the array willbe empty");
 console.log(item);
 let  predatorsAnimals =["Lion","Tiger","WOLF"];
 console.log(predatorsAnimals);
 predatorsAnimals.push("Piglet");
+// this is th secind way to add predatorsAnimals.unshift("Piglet");
 console.log(predatorsAnimals);
