@@ -1,6 +1,7 @@
 let numberX;
-// console.log(numberX .. will be Undefined because there is no value of x );
-numberX =5 ;
+console.log("the value of x is Undefined since there is no value defined");
 console.log(numberX); 
-// it will be =5 because we declare the value of numberX
+numberX =5 ;
+console.log("the value of x should be 5");
+console.log(numberX); 
 
