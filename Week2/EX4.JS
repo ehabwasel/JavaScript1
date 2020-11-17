@@ -9,5 +9,5 @@ for(let i = 0; i <= 4;i++) {
     drinkTray.push(drinkTypes[2]);
   }
 }
-console.logconsole.log("Hey guys, I brought " + drinkTray.join(", ") + "!");
+console.log("Hey guys, I brought " + drinkTray.join(", ") + "!");
 
