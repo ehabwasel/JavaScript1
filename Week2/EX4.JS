@@ -1,3 +1,4 @@
+// create empety array and we want to push drinks in it under differnt condtions i used if and else if statment
 const drinkTray=[];
 const drinkTypes = ['cola', 'lemonade', 'water'];
 for(let i = 0; i <= 4;i++) {
@@ -10,4 +11,4 @@ for(let i = 0; i <= 4;i++) {
   }
 }
 console.log("Hey guys, I brought " + drinkTray.join(", ") + "!");
-
+// 
