@@ -5,7 +5,7 @@
 // I USE IF AND ELSE IF STATMENT  
 function convert(score,maxScore){
   let x= (score/maxScore)*100;
-   score = 75;
+  
   if(x>=90 && x<100){
     console.log("You got a" ,"A", x ,"%" ,"Exellent" )
 
