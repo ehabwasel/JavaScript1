@@ -11,3 +11,4 @@ function tellFortune(numChildren, partnerNames, locations, jobs){
   return  console.log("You will be a" ,rand4 , "in The",rand3,"married to", rand2,"with ",rand1,"kids.");
 }
 tellFortune(numChildren, partnerNames, locations, jobs);
+//

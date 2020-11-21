@@ -10,5 +10,5 @@ function calculateDogAge(humanAge,dogAge){
   calculateDogAge(2);
   calculateDogAge(3);
   calculateDogAge(4);
-  calculateDogAge(5);
+  calculateDogAge(5)
   

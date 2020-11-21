@@ -4,7 +4,7 @@ function addToShoppingCart(grocery){
   {
     if(shoppingCart.length<3){
       shoppingCart.push(grocery);
-      console.log("You bought bananas, ",shoppingCart)
+      console.log("You bought , ",shoppingCart)
     }
     else{
       shoppingCart.shift();
@@ -16,4 +16,5 @@ addToShoppingCart('chocolate');
 addToShoppingCart('waffles');
 addToShoppingCart('tea'); 
 addToShoppingCart('Aplle'); 
+//
 

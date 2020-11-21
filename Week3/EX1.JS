@@ -8,4 +8,4 @@ function giveCompliment(ehab){
     
 }
 
-giveCompliment(ehab)
+giveCompliment(ehab);
