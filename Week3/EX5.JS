@@ -17,4 +17,4 @@ const cartForParty = {
     console.log("Total: €" , totalPrice);
   }
   
-calculateTotalPrice("")
+calculateTotalPrice()
