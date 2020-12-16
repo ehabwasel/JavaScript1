@@ -1,10 +1,24 @@
+//first way
 
-function giveCompliment(ehab){
+function giveCompliment(name){
   const compliments=["great","awaiswm","good","verygood","exellent","smart ","strong","courageous","sunshine ","Goodlooking","INTELGENT"];
- let rand= compliments[Math.random() * compliments.length | 0];
+  let rand = compliments[Math.floor(Math.random()*10)]
+  return console.log(name, "! You Are" ,rand)
+}
+giveCompliment('ehab')
+giveCompliment('jasper')
+giveCompliment('fedde')
 
-   return  console.log(" Ehab!You Are" ,rand)
+//second way
 
+function giveCompliment(name) {
+  const compliments=["great","awaiswm","good","verygood","exellent","smart ","strong","courageous","sunshine ","Goodlooking","INTELGENT"];
+  let rand= compliments[Math.random() * compliments.length | 0];
+
+  // Note how the parameter "name" is passed here:
+  return console.log(name, "! You Are" ,rand)
 }
 
-giveCompliment()
+giveCompliment('ehab')
+giveCompliment('jasper')
+giveCompliment('fedde')
