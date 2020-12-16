@@ -3,4 +3,6 @@ var myrecipe = {
   Serves: 2,
 Ingredients: ["4 eggs","2 strips of bacon","1 tsp salt/pepper"]
 };
-console.log(myrecipe);
+for (const [key, value] of Object.entries(myrecipe)) {
+  console.log(`${key}:${value}`);
+}
